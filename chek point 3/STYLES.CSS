@@ -1,0 +1,141 @@
+header
+{background-image:url(OIP.jpeg) ;
+    color: #e3dede;
+   
+
+}
+
+ul li{ font-size: x-large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'honey_batterflyregular';
+  
+}
+
+li a:hover{
+    border: 3PX; background-color:#34CAC4;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{height: 150px;
+    width:300px; 
+    margin-right: 80%;
+    background-color: #34CAC4;
+    border-radius: 20px;
+
+}
+.héros{background-image: url(famille-voyageant-ensemble-travers-bois.jpg); 
+    height: 500px;  background-size: 100% 100%;
+}
+.partheros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:22px ;
+
+}
+
+h1{ font-family: 'grahm_sans_roughregular';
+    font-size: xx-large;
+    font-weight: 900;
+    border: 30px white;
+    margin-top: 10%;
+    background-color: 23px #fff;
+
+
+}
+
+h2{font-family: 'grahm_sans_roughregular';
+    font-size: x-large;
+    font-weight: 800;
+    border: 22px white; 
+    margin-top: 10%;
+    background-color: 23px #fff;
+
+}
+
+.Destinations{
+    margin-top: 33px;
+    background-color: aliceblue;
+}
+
+.formulaire{ margin-right: 19%;
+    background-color: #84a5a4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: 'grahm_sans_roughregular';
+    
+}
+
+.btn1{background-color:#3912d6 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    width: 90px;
+    height: 50px;
+
+}
+
+.media a:hover { background-color: rgb(22, 193, 193);
+    
+
+}    
+
+.media{
+    background-color:aliceblue;
+    height: 50px;
+    width: 100px;
+}
+small{
+    background-color: beige;
+}
+
+
+
+@font-face {
+    font-family: 'caligna_demoregular';
+    src: url('font/calignademo-webfont.woff2') format('woff2'),
+         url('font/calignademo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'grahm_sans_roughregular';
+    src: url('font/rough_otf-webfont.woff2') format('woff2'),
+         url('font/rough_otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'honey_batterflyregular';
+    src: url('font/honey_batterfly-webfont.woff2') format('woff2'),
+         url('font/honey_batterfly-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p{
+    font-family: 'caligna_demoregular';
+}
+h3{font-family: 'grahm_sans_roughregular';
+
+}
+
+strong{ font-family: 'honey_batterflyregular';
+
+}
